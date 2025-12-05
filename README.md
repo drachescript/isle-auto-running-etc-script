@@ -1,6 +1,4 @@
-Here’s an updated GitHub-ready README that includes both v1 and v2:
 
-````md
 # Auto Walk / Run Script for The Isle (AutoHotkey)
 
 These AutoHotkey scripts automate basic movement and interaction keys for The Isle.  
@@ -38,9 +36,7 @@ Grab the current stable release (v1.x) and install it with the default options.
 - Uses `ControlSend` to target the game window directly.
 - Default window title is configured as:
 
-  ```ahk
   gameTitle := "TheIsle"
-````
 
 * This lets your dinosaur keep moving even if:
 
@@ -97,6 +93,3 @@ Only one movement mode (run or walk) can be active at a time. Turning one on wil
 4. Save the file and restart the script (exit from the tray icon, then double-click again).
 
 For `Isle_v2.ahk`, you can also change the `gameTitle` variable if your window name is not `TheIsle`.
-
-```
-```
